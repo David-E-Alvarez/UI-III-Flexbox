@@ -64,10 +64,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-header nav div{
+.header1 nav div{
 	display: flex;
 	justify-content: space-evenly;
-	border: 2px red solid;
+	/*border: 2px red solid;*/
 	margin-top: 1%;
 }
 
@@ -76,4 +76,25 @@ header nav div{
 	color:grey;
 	padding-top: 9px;
 }
+
+.header2{
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-around;
+	/*border: 2px red solid;*/
+	width: 65%;
+	margin-left: 15%;
+}
+
+.header2 h1{
+	font-size: 5em;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.header2 div{
+	/*border: red 2px solid;*/
+	text-align: center;
+}
+
 
