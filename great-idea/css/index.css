@@ -77,23 +77,77 @@ h1, h2, h3, h4, h5 {
 	padding-top: 9px;
 }
 
-.header2{
+.header2{/*code for where "innovation..." and image are; in a header*/
 	margin-top: 3%;
 	display: flex;
 	justify-content: space-around;
 	/*border: 2px red solid;*/
 	width: 65%;
 	margin-left: 15%;
+	margin-bottom: 50px;
 }
 
-.header2 h1{
+.header2 h1{/*used to center "innovation on demand*/
 	font-size: 5em;
 	text-align: center;
 	margin-top: 50px;
 }
 
-.header2 div{
+.header2 .aHrefButton{/*styles "get started" button */
+	/*border: 1.5px black solid;*/
+	text-decoration: none;
+	padding: 3px 30px 3px 30px;
+	text-align: center;
+}
+
+.header2 div{/**/
 	/*border: red 2px solid;*/
+	text-align: center;
+}
+
+hr{
+	width: 60%;
+}
+
+.section1{/*introduce flex to section*/
+	/*border: 2px red solid;*/
+	margin-top: 25px;
+	display: flex;
+	width: 49%;
+	margin-left: 23%;
+}
+
+.section1 div{/*position divs side by side using flex justify-content*/
+	justify-content: space-evenly;
+	/*border: 2px purple solid;*/
+	
+}
+
+.section1 div p{
+	text-align: left;
+	padding: 20px;
+	margin-top: -25px;
+}
+
+.middle-img{
+	margin-top: 15px;
+	margin-left: 24%; 
+}
+
+.section2{/*introduce flex to section*/
+	/*border: 2px red solid;*/
+	margin-top: 25px;
+	display: flex;
+	width: 49%;
+	margin-left: 23%;
+	margin-bottom: 40px;
+}
+
+address{
+	margin-left: 20%;
+}
+
+.Copyright{
 	text-align: center;
 }
 
