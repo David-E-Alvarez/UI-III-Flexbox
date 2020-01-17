@@ -169,14 +169,14 @@ address{
 }
 
 .servicesHeader1 nav div{
-	border: 2px purple solid;
+	/*border: 2px purple solid;*/
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 25px;
 
 }
 .servicesHeader1 .services-header-img{
-	border: 2px red solid;
+	/*border: 2px red solid;*/
 	margin-bottom: 15px;
 }
 
