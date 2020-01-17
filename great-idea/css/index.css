@@ -187,6 +187,8 @@ address{
 	width: 65%;
 	margin-left: 15%;
 	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: space-around;
 	/*border-bottom: 5px black solid;*/
 }
 
@@ -195,6 +197,7 @@ address{
 	margin: 15px;
 	padding: 20px;
 	background: #D3D3D3;
+	width: 45%;
 }
 
 .mainContentContainer div a{	
